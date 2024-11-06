@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,79 +6,83 @@
 
 
 }
-.container{
+
+.containter {
     max-width: 1200px;
-    margin:auto;
+    margin: auto;
 
 }
 
-.header-wrapper{
+.header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left:40px ;
+    padding-left: 40px;
     padding-right: 40px;
 
 }
-.first-section{
+
+.first-section {
     padding-top: 60px;
     background-image: url(../images/start-screen-gradient-background.png);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1280px;
-    
+
+
+
 }
-.menu{
+
+.menu {
     font-family: Georgia;
     list-style: none;
     display: flex;
     gap: 35px;
-    a{
-        text-decoration: none;
-        color:  #CDCDCD;
 
-        &.active{
+    a {
+        text-decoration: none;
+        color: #CDCDCD;
+
+        &.active {
             color: #FAFAFA;
             padding-bottom: 10px;
-            border-bottom: 2px solid #F1CDB3; 
+            border-bottom: 2px solid #F1CDB3;
 
 
-            
+
         }
     }
-    
+
 
 }
-.content{
-    padding-top: 163px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 42px;
-    
-    h1{
+
+.content {
+
+
+    h1 {
         color: #FFFFFF;
         font-family: Georgia, serif;
-        letter-spacing: 57.2% ;
+        letter-spacing: 57.2%;
         font-size: 44px;
-        
+
 
     }
 
-    p{
+    p {
         color: #CDCDCD;
-        font-family: Arial,sans-serif;
-        
+        font-family: Arial, sans-serif;
+        margin: 42px 0;
+
     }
-    button{
+
+    button {
         border: none;
-        font-family: Georgia ;
+        font-family: Georgia, serif;
         color: #292929;
         background: #F1CDB3;
-        font-size:17px ;
-        font-weight:400;
+        font-size: 17px;
+        font-weight: 400;
         letter-spacing: 6%;
-        border-radius:100px ;
+        border-radius: 100px;
         padding: 15px 45px 15px 45px;
         gap: 10px;
         width: 207px;
@@ -86,18 +90,283 @@
 
     }
 }
-.header-wrapper2{
+
+.header-wrapper2 {
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
     justify-content: space-between;
+    margin-top: 60px;
+
+    .dog {
+
+        font-size: 0;
+    }
 }
 
-.container2{
+
+
+
+.two-section {
+    max-width: 1280px;
+    margin: auto;
+    background: white;
+}
+
+.header-wrapper1 {
+    padding-bottom: 100px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+
+    .content1 {
+        width: 430px;
+        height: 380px;
+    }
+
+    .h1 {
+        font-family: Georgia, serif;
+        font-weight: 400;
+        font-size: 35px;
+        letter-spacing: 6%;
+        padding-bottom: 25px;
+        color: #545454;
+    }
+
+    .p1 {
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        padding-bottom: 25px;
+        color: #4C4C4C;
+
+    }
+
+}
+
+
+
+.three-section {
+    background: #F6F6F6;
+    text-align: center;
+    max-width: 12800px;
+    margin: auto;
+
+
+    .h2 {
+        color: #545454;
+        font-weight: 400;
+        font-size: 35px;
+        padding-top: 80px;
+
+
+    }
+
+    .button2-1 {
+        color: #292929;
+        font-family: Georgia, serif;
+        font-weight: 400;
+        font-size: 17px;
+        border-radius: 100px;
+        padding: 15px 45px 15px 45px;
+        background: #F1CDB3;
+        border: none;
+        margin-top: 60px;
+        margin-bottom: 100px;
+
+
+
+    }
+}
+
+.header-wrapper1-2 {
+
+    display: flex;
+    justify-content: space-around;
+    padding-left: 105px;
+    padding-right: 105px;
+
+
+
+    .logo1-1 {
+        background: #FAFAFA;
+        width: 270px;
+        height: 435px;
+
+    }
+
+    .button2 {
+        color: #292929;
+        font-family: Georgia, serif;
+        font-weight: 400;
+
+        border: 2px solid #F1CDB3;
+        border-radius: 100px;
+        padding: 15px 45px 15px 45px;
+        background: #FAFAFA;
+
+    }
+
+    .p1-1 {
+
+        color: #545454;
+        text-align: center;
+        font-family: Georgia, serif;
+        font-weight: 400;
+        font-size: 20px;
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+
+}
+
+.four-section {
     
-    padding-top:60px ;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    .textforshelter {
+        .h3 {
+            color: #545454;
+            font-weight: 400;
+            font-size: 35px;
+            text-align: center;
+            font-family: Georgia, serif;
+        }
+    }
+
+    .logofshelter {
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .pfor3 {
+        color: #545454;
+        font-weight: 400;
+        font-size: 20px;
+        font-family: Georgia, serif;
+        padding-top: 30px;
+    }
+    .logofor3{
+        text-align: center;
+    }
 }
 
 
 
+.five-section 
+{
+    padding-bottom: 100px;
+    padding-top: 80px;
+    background:#F6F6F6 ;
+    display: flex;
+    justify-content: center;
+    
+
+    .txt5 {
+        color: #545454;
+        font-weight: 400;
+        font-size: 35px;
+        font-family: Georgia, serif;
+    }
+
+    .p5 {
+        color: #545454;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: Georgia, serif;
+    }
+
+
+    .borderr {
+        font-family: Georgia, serif;
+        border-radius: 10px;
+        padding: 10px 15px 10px 15px;
+        background: #F1CDB3;
+        display: inline-block;
+    }
+
+    .creditcard {
+        text-align: center;
+        display: flex;
+        gap: 15px;
+
+
+        .h2for5 {
+
+            color: #545454;
+            font-weight: 400;
+            font-size: 20px;
+            font-family: Georgia, serif;
+        }
+    }
+    .undercard5{
+        color: #B2B2B2;
+        font-weight: 400;
+        font-size: 12px;
+        font-family: Arial;
+    }
+    .donation-wrapper
+    {
+        display: flex;
+        justify-content: center;
+        gap:30px ;
+    }
+
+    .textforshelter{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+}
+
+.sixe-section{
+    padding-top:40px ;
+    background-image: url(/images/footer-gradient-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+    .h1end{
+        
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 35px;
+        font-family: Georgia, serif;
+    }
+
+    .p-end{
+        color: #F1CDB3;
+        font-weight: 400;
+        font-size: 20px;
+        font-family: Georgia, serif; 
+    }
+    .endflex{
+        display: flex;
+        gap: 10px;
+        padding-top:34px ;
+   
+    
+    }
+
+    .end-wrapper{
+        display: flex;
+        justify-content: space-between;
+        gap:160px ;
+    }
+    .imgendpin{
+        width: 22px;
+        height: 32px;
+    }
+
+
+}
