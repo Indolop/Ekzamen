@@ -77,7 +77,7 @@ const translations = {
 
 
 
-// Update the text content based on the selected language
+
 function updateLanguage(language) {
   const elements = document.querySelectorAll('[data-translate]');
 
@@ -89,12 +89,12 @@ function updateLanguage(language) {
   });
 }
 
-// Event listener for language change
+
 document.getElementById("language-switcher").addEventListener("change", (event) => {
   updateLanguage(event.target.value);
 });
 
-// Initial language setup (default to Ukrainian)
+
 updateLanguage("uk");
 
 const adminCredentials = {
@@ -109,7 +109,6 @@ document.getElementById("login-form").addEventListener("submit", function(event)
 
   if (username === adminCredentials.username && password === adminCredentials.password) {
     alert("Login successful");
-    // Показати адміністрування
   } else {
     alert("Invalid credentials");
   }
