@@ -91,11 +91,17 @@ function updateLanguage(language) {
 
 
 document.getElementById("language-switcher").addEventListener("change", (event) => {
-  updateLanguage(event.target.value);
+  const selectedLanguage = event.target.value;
+  updateLanguage(selectedLanguage);
+  localStorage.setItem("language", selectedLanguage);
 });
 
 
-updateLanguage("uk");
+
+const savedLanguage = localStorage.getItem("language") || "uk";
+updateLanguage(savedLanguage);
+document.getElementById("language-switcher").value = savedLanguage;
+
 
 const adminCredentials = {
   username: "admin",
